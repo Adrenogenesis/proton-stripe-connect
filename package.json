@@ -5,7 +5,7 @@
     "dev": "next",
     "build": "next build",
     "gcp-build": "next build",
-    "start": "next start -p $PORT"
+    "start": "next start"
   },
   "repository": {
     "type": "git",
