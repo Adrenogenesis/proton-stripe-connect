@@ -1,6 +1,6 @@
 [build]
     command = "npm run dev"
-    publish = "/frontend"
+    publish = "/pages"
     base = "/"
 
 [[redirects]]
@@ -10,7 +10,7 @@
 
 [[plugins]]
     package = "netlify-plugin-cache-nextjs"
-    # These options will cache the build directory at `${NETLIFY_BASE}/frontend/.next-build`
+    # These options will cache the build directory at `${NETLIFY_BASE}/pages/.next-build`
     [plugins.inputs]   
-    build_dir_path = "frontend"
+    build_dir_path = "pages"
     
