@@ -1,0 +1,11 @@
+[build]
+    command = "npm run build"
+    publish = "/"
+    base = "/"
+
+[[redirects]]
+    from ="/"
+    to = "/pages/index.js"
+    status = 200
+
+
